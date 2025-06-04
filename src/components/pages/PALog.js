@@ -67,7 +67,7 @@ function PALog() {
             { name: "Bench Dips", sets: 3, reps: 10, superset: "Leg Raises (3 sets; 10 reps)" },
             { name: "Planks Shoulder Tops", sets: 3, reps: 10, superset: "Russian Twist (3 sets; 30 reps)" }
           ],
-          imageName: "public/images/WEDNESDAY_(April_2).jpg"
+          imageName: "../images/WEDNESDAY_(April_2).jpg"
         },
         {
           date: "April 4",
