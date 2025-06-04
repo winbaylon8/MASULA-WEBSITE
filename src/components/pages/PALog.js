@@ -263,32 +263,34 @@ function PALog() {
                 </Card.Header>
                 <Card.Body>
                   {week.sessions.map((session, sessionIndex) => (
-                    <div key={sessionIndex} className="mb-4">
-                      <h3>{session.day} - {session.date}</h3>
-                      <Table striped bordered hover variant="dark">
-                        <thead>
-                          <tr>
-                            <th>Exercise</th>
-                            <th>Sets</th>
-                            <th>Reps</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {session.exercises.map((exercise, exerciseIndex) => (
-                            <tr key={exerciseIndex}>
-                              <td>{exercise.name}</td>
-                              <td>{exercise.sets}</td>
-                              <td>{exercise.reps}</td>
+                    <div key={sessionIndex} className="mb-4 d-flex align-items-start session-row">
+                      <div className="flex-grow-1">
+                        <h3>{session.day} - {session.date}</h3>
+                        <Table className="workout-table" striped bordered hover>
+                          <thead>
+                            <tr>
+                              <th>Exercise</th>
+                              <th>Sets</th>
+                              <th>Reps</th>
                             </tr>
-                          ))}
-                        </tbody>
-                      </Table>
+                          </thead>
+                          <tbody>
+                            {session.exercises.map((exercise, exerciseIndex) => (
+                              <tr key={exerciseIndex}>
+                                <td>{exercise.name}</td>
+                                <td>{exercise.sets}</td>
+                                <td>{exercise.reps}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </Table>
+                      </div>
                       {session.imageName && (
-                        <div className="text-center mt-3">
+                        <div className="workout-image ms-4">
                           <img 
                             src={session.imageName} 
                             alt={`${session.day} workout`} 
-                            style={{ maxWidth: '100%', height: 'auto' }}
+                            className="workout-img"
                           />
                         </div>
                       )}
