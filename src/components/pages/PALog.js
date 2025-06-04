@@ -3,6 +3,10 @@ import { Container, Row, Col, Card, Table } from "react-bootstrap";
 import "./PALog.css";
 
 function PALog() {
+  const getImagePath = (imageName) => {
+    return `${process.env.PUBLIC_URL}${imageName}`;
+  };
+
   const workoutData = [
     {
       week: "Week 1 (March 24-28)",
@@ -16,7 +20,7 @@ function PALog() {
             { name: "Bench Dips", sets: 3, reps: 10, superset: "Leg Raises (3 sets; 10 reps)" },
             { name: "Planks Shoulder Tops", sets: 3, reps: 10, superset: "Russian Twist (3 sets; 30 reps)" }
           ],
-          imageName: "/images/MONDAY_(March_24).jpg"
+          imageName: getImagePath("/images/MONDAY_(March_24).jpg")
         },
         {
           date: "March 26",
@@ -28,7 +32,7 @@ function PALog() {
             { name: "Sumo Squats", sets: 4, reps: 15 },
             { name: "Donkey Kicks", sets: 4, reps: 15, superset: "Straight Leg Lift (4 sets; 15 reps)" }
           ],
-          imageName: "/images/WEDNESDAY_(March_26).jpg"
+          imageName: getImagePath("/images/WEDNESDAY_(March_26).jpg")
         },
         {
           date: "March 28",
@@ -39,7 +43,7 @@ function PALog() {
             { name: "Bench Dips", sets: 3, reps: 10, superset: "Leg Raises (3 sets; 10 reps)" },
             { name: "Planks Shoulder Tops", sets: 3, reps: 10, superset: "Russian Twist (3 sets; 30 reps)" }
           ],
-          imageName: "/images/FRIDAY_(March_28).jpg"
+          imageName: getImagePath("/images/FRIDAY_(March_28).jpg")
         }
       ]
     },
@@ -56,7 +60,7 @@ function PALog() {
             { name: "Sumo Squats", sets: 4, reps: 15 },
             { name: "Donkey Kicks", sets: 4, reps: 15, superset: "Straight Leg Lift (4 sets; 15 reps)" }
           ],
-          imageName: "/images/MONDAY_(March_31).jpg"
+          imageName: getImagePath("/images/MONDAY_(March_31).jpg")
         },
         {
           date: "April 2",
@@ -67,7 +71,7 @@ function PALog() {
             { name: "Bench Dips", sets: 3, reps: 10, superset: "Leg Raises (3 sets; 10 reps)" },
             { name: "Planks Shoulder Tops", sets: 3, reps: 10, superset: "Russian Twist (3 sets; 30 reps)" }
           ],
-          imageName: "../images/WEDNESDAY_(April_2).jpg"
+          imageName: getImagePath("/images/WEDNESDAY_(April_2).jpg")
         },
         {
           date: "April 4",
@@ -79,7 +83,7 @@ function PALog() {
             { name: "Sumo Squats", sets: 4, reps: 15 },
             { name: "Donkey Kicks", sets: 4, reps: 15, superset: "Straight Leg Lift (4 sets; 15 reps)" }
           ],
-          imageName: "/images/FRIDAY_(April_4).jpg"
+          imageName: getImagePath("/images/FRIDAY_(April_4).jpg")
         }
       ]
     },
@@ -96,7 +100,7 @@ function PALog() {
             { name: "Hip Bridges", sets: 4, reps: 15 },
             { name: "Fire Hydrant", sets: 4, reps: 15 }
           ],
-          imageName: "/images/MONDAY_(April_7).jpg"
+          imageName: getImagePath("/images/MONDAY_(April_7).jpg")
         },
         {
           date: "April 9",
@@ -108,7 +112,7 @@ function PALog() {
             { name: "Dumbbell Rows", sets: 3, reps: 12, superset: "Seated Knee to Chest (3 sets; 12 reps)" },
             { name: "Dumbbell Shrugs", sets: 3, reps: 12 }
           ],
-          imageName: "/images/WEDNESDAY_(April_9).jpg"
+          imageName: getImagePath("/images/WEDNESDAY_(April_9).jpg")
         },
         {
           date: "April 11",
@@ -120,7 +124,7 @@ function PALog() {
             { name: "Hip Bridges", sets: 4, reps: 15 },
             { name: "Fire Hydrant", sets: 4, reps: 15 }
           ],
-          imageName: "/images/FRIDAY_(April_11).jpg"
+          imageName: getImagePath("/images/FRIDAY_(April_11).jpg")
         }
       ]
     },
@@ -137,7 +141,7 @@ function PALog() {
             { name: "Dumbbell Rows", sets: 3, reps: 12, superset: "Seated Knee to Chest (3 sets; 12 reps)" },
             { name: "Dumbbell Shrugs", sets: 3, reps: 12 }
           ],
-          imageName: "/images/MONDAY_(April_14).jpg"
+          imageName: getImagePath("/images/MONDAY_(April_14).jpg")
         },
         {
           date: "April 16",
@@ -149,7 +153,7 @@ function PALog() {
             { name: "Hip Bridges", sets: 4, reps: 15 },
             { name: "Fire Hydrant", sets: 4, reps: 15 }
           ],
-          imageName: "/images/WEDNESDAY_(April_16).jpg"
+          imageName: getImagePath("/images/WEDNESDAY_(April_16).jpg")
         },
         {
           date: "April 18",
@@ -161,7 +165,7 @@ function PALog() {
             { name: "Dumbbell Rows", sets: 3, reps: 12, superset: "Seated Knee to Chest (3 sets; 12 reps)" },
             { name: "Dumbbell Shrugs", sets: 3, reps: 12 }
           ],
-          imageName: "/images/FRIDAY_(April_18).jpg"
+          imageName: getImagePath("/images/FRIDAY_(April_18).jpg")
         }
       ]
     },
@@ -178,7 +182,7 @@ function PALog() {
             { name: "Leg Raises", sets: 4, reps: 25 },
             { name: "Body Weight Calf Raises", sets: 4, reps: 25 }
           ],
-          imageName: "/images/MONDAY_(April_21).jpg"
+          imageName: getImagePath("/images/MONDAY_(April_21).jpg")
         },
         {
           date: "April 23",
@@ -190,7 +194,7 @@ function PALog() {
             { name: "Side-Lying Curl", sets: 4, reps: 25 },
             { name: "Leg Raises", sets: 4, reps: 25 }
           ],
-          imageName: "/images/WEDNESDAY_(April_23).jpg"
+          imageName: getImagePath("/images/WEDNESDAY_(April_23).jpg")
         },
         {
           date: "April 25",
@@ -202,7 +206,7 @@ function PALog() {
             { name: "Leg Raises", sets: 4, reps: 25 },
             { name: "Body Weight Calf Raises", sets: 4, reps: 25 }
           ],
-          imageName: "/images/FRIDAY_(April_25).jpg"
+          imageName: getImagePath("/images/FRIDAY_(April_25).jpg")
         }
       ]
     }
