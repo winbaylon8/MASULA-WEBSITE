@@ -18,7 +18,7 @@ function FoodLog() {
                 "1 cup guisadong gulay",
                 "4 small spring rolls"
               ],
-              image: "/FOOD LOG/IMG_5580.jpg"
+              image: "/food_log/IMG_5580.jpg"
             },
             dinner: {
               items: [
@@ -30,7 +30,7 @@ function FoodLog() {
                 "1 medium-sized orange",
                 "1 small apple"
               ],
-              image: "/FOOD LOG/IMG_5581.jpg"
+              image: "/food_log/IMG_5581.jpg"
             }
           }
         },
@@ -45,13 +45,13 @@ function FoodLog() {
                 "1 sunny-side",
                 "half-cup pastil"
               ],
-              image: "/FOOD LOG/IMG_5584.jpg"
+              image: "/food_log/IMG_5584.jpg"
             },
             dinner: {
               items: [
                 "2 cups of kimchi chicken rice"
               ],
-              image: "/FOOD LOG/IMG_5585.jpg"
+              image: "/food_log/IMG_5585.jpg"
             }
           }
         },
@@ -65,13 +65,13 @@ function FoodLog() {
                 "1 sunny-side",
                 "half-cup pastil"
               ],
-              image: "/FOOD LOG/IMG_5586.jpg"
+              image: "/food_log/IMG_5586.jpg"
             },
             dinner: {
               items: [
                 "2 cups of kimchi chicken rice"
               ],
-              image: "/FOOD LOG/IMG_5587.jpg"
+              image: "/food_log/IMG_5587.jpg"
             }
           }
         }
@@ -89,7 +89,7 @@ function FoodLog() {
                 "1 cup rice",
                 "2 cups pork kare-kare"
               ],
-              image: "/FOOD LOG/IMG_5589.jpg"
+              image: "/food_log/IMG_5589.jpg"
             },
             dinner: {
               items: [
@@ -99,7 +99,7 @@ function FoodLog() {
                 "2 small rilled talong",
                 "2 cups cabbage"
               ],
-              image: "/FOOD LOG/IMG_5590.jpg"
+              image: "/food_log/IMG_5590.jpg"
             }
           }
         },
@@ -113,14 +113,14 @@ function FoodLog() {
                 "1 piece tuna mackerel",
                 "1 cup ampalaya"
               ],
-              image: "/FOOD LOG/IMG_5591.jpg"
+              image: "/food_log/IMG_5591.jpg"
             },
             dinner: {
               items: [
                 "1 piece grilled chicken breast",
                 "3 boiled eggs"
               ],
-              image: "/FOOD LOG/IMG_5592.jpg"
+              image: "/food_log/IMG_5592.jpg"
             }
           }
         },
@@ -134,7 +134,7 @@ function FoodLog() {
                 "1 piece tortang isda",
                 "2 cups adobong sitaw"
               ],
-              image: "/FOOD LOG/IMG_5593.jpg"
+              image: "/food_log/IMG_5593.jpg"
             },
             dinner: {
               items: [
@@ -142,7 +142,7 @@ function FoodLog() {
                 "3 small boiled eggs",
                 "1 and a half cup sinigang"
               ],
-              image: "/FOOD LOG/IMG_5594.jpg"
+              image: "/food_log/IMG_5594.jpg"
             }
           }
         }
@@ -161,7 +161,7 @@ function FoodLog() {
                 "2 boiled medium-sized eggs",
                 "1 cup rice"
               ],
-              image: "/FOOD LOG/IMG_5595.jpg"
+              image: "/food_log/IMG_5595.jpg"
             },
             dinner: {
               items: [
@@ -169,7 +169,7 @@ function FoodLog() {
                 "1 piece fried breast chicken",
                 "2 scrambled eggs"
               ],
-              image: "/FOOD LOG/IMG_5596.jpg"
+              image: "/food_log/IMG_5596.jpg"
             }
           }
         },
@@ -183,14 +183,14 @@ function FoodLog() {
                 "4 small boiled okra",
                 "2 whole fried potato"
               ],
-              image: "/FOOD LOG/IMG_5597.jpg"
+              image: "/food_log/IMG_5597.jpg"
             },
             dinner: {
               items: [
                 "2 cups of salmon sinigang",
                 "half cup rice"
               ],
-              image: "/FOOD LOG/IMG_5598.jpg"
+              image: "/food_log/IMG_5598.jpg"
             }
           }
         },
@@ -204,14 +204,14 @@ function FoodLog() {
                 "1 sunny-side up egg",
                 "half-cup pastil"
               ],
-              image: "/FOOD LOG/IMG_5600.jpg"
+              image: "/food_log/IMG_5600.jpg"
             },
             dinner: {
               items: [
                 "3 grilled small breast chicken",
                 "1 cup guisadong alugbati with tofu"
               ],
-              image: "/FOOD LOG/IMG_5601.jpg"
+              image: "/food_log/IMG_5601.jpg"
             }
           }
         }
@@ -230,14 +230,14 @@ function FoodLog() {
                 "2 pieces of scrambled egg",
                 "3 pieces of small grilled breast"
               ],
-              image: "/FOOD LOG/IMG_5602.jpg"
+              image: "/food_log/IMG_5602.jpg"
             },
             dinner: {
               items: [
                 "2 cups of pinakbet",
                 "1 piece of fish belly"
               ],
-              image: "/FOOD LOG/IMG_5604.jpg"
+              image: "/food_log/IMG_5604.jpg"
             }
           }
         },
@@ -251,14 +251,14 @@ function FoodLog() {
                 "2 cups of ensaladang repolyo",
                 "2 pieces of grilled ribs"
               ],
-              image: "/FOOD LOG/IMG_2183.jpg"
+              image: "/food_log/IMG_2183.jpg"
             },
             dinner: {
               items: [
                 "1 cup of miswa soup",
                 "2 piece of blanched petchay leaves"
               ],
-              image: "/FOOD LOG/IMG_2984.jpg"
+              image: "/food_log/IMG_2984.jpg"
             }
           }
         },
@@ -271,7 +271,7 @@ function FoodLog() {
                 "1 bowl of caesar salad",
                 "1 medium-sized boiled egg"
               ],
-              image: "/FOOD LOG/IMG_2988.jpg"
+              image: "/food_log/IMG_2988.jpg"
             },
             dinner: {
               items: [
@@ -280,7 +280,7 @@ function FoodLog() {
                 "half cup sisig rice",
                 "150 grams blanched sitaw"
               ],
-              image: "/FOOD LOG/IMG_3082.jpg"
+              image: "/food_log/IMG_3082.jpg"
             }
           }
         }
@@ -298,7 +298,7 @@ function FoodLog() {
                 "1 cup pork adobo",
                 "1 cup fried rice"
               ],
-              image: "/FOOD LOG/IMG_3239.jpg"
+              image: "/food_log/IMG_3239.jpg"
             },
             dinner: {
               items: [
@@ -306,7 +306,7 @@ function FoodLog() {
                 "1 cup boiled broccoli",
                 "1 piece pork chop"
               ],
-              image: "/FOOD LOG/IMG_3404.jpg"
+              image: "/food_log/IMG_3404.jpg"
             }
           }
         },
@@ -319,7 +319,7 @@ function FoodLog() {
                 "2 pieces spinach omelette",
                 "1 piece fried chicken"
               ],
-              image: "/FOOD LOG/IMG_3561.jpg"
+              image: "/food_log/IMG_3561.jpg"
             },
             dinner: {
               items: [
@@ -327,7 +327,7 @@ function FoodLog() {
                 "1 cup lechon",
                 "50 grams blanched sitaw"
               ],
-              image: "/FOOD LOG/IMG_3594.jpg"
+              image: "/food_log/IMG_3594.jpg"
             }
           }
         },
@@ -339,7 +339,7 @@ function FoodLog() {
               items: [
                 "1 cup caesar salad"
               ],
-              image: "/FOOD LOG/IMG_3688.jpg"
+              image: "/food_log/IMG_3688.jpg"
             },
             dinner: {
               items: [
@@ -347,7 +347,7 @@ function FoodLog() {
                 "1 half medium-sized sweet potato",
                 "half cup rice"
               ],
-              image: "/FOOD LOG/IMG_5579.jpg"
+              image: "/food_log/IMG_5579.jpg"
             }
           }
         }
