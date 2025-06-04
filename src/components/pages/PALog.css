@@ -19,7 +19,12 @@
 }
 
 .workout-table {
+<<<<<<< HEAD
   color: white;
+=======
+  color: #c0c0c0;
+  margin-bottom: 0;
+>>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164
 }
 
 .workout-table thead th {
@@ -29,7 +34,11 @@
 }
 
 .workout-table td {
+<<<<<<< HEAD
   padding: 1rem 0.5rem;
+=======
+  padding: 0.75rem;
+>>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164
   border: none;
 }
 
@@ -40,18 +49,32 @@
 }
 
 .workout-image img {
+<<<<<<< HEAD
   max-height: 200px; /* Reduced from 300px */
   width: auto;
   object-fit: contain; /* Changed from cover to maintain aspect ratio */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   filter: grayscale(100%);
+=======
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  filter: grayscale(100%) contrast(1.2);
+  transition: filter 0.3s ease;
+}
+
+.workout-image img:hover {
+  filter: grayscale(0%) contrast(1);
+>>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164
 }
 
 .week-block {
   margin-top: 2rem;
 }
 
+<<<<<<< HEAD
 .activity-image {
   display: flex;
   align-items: center;
@@ -72,6 +95,8 @@
   filter: grayscale(0%); /* Return to color on hover for better UX */
 }
 
+=======
+>>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164
 @media (max-width: 768px) {
   .workout-card .card-body {
     padding: 1rem;
@@ -81,10 +106,13 @@
     margin-top: 2rem;
   }
 
+<<<<<<< HEAD
   .workout-image img {
     max-height: 150px; /* Reduced from 200px */
   }
 
+=======
+>>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164
   .workout-table {
     font-size: 0.9rem;
   }
