@@ -3,12 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Typewriter from "typewriter-effect";
 import homeLogo from "../../Assets/home-main.png";
-<<<<<<< HEAD
-import {
-  AiFillFacebook,
-  AiFillInstagram,
-} from "react-icons/ai";
-=======
 import myImg from "../../Assets/avatar.svg";
 import {
   AiFillGithub,
@@ -16,7 +10,6 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
->>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164
 
 function Type() {
   return (
@@ -73,8 +66,6 @@ function WebsiteIntroduction() {
       <Container fluid className="home-about-section" id="about">
         <Container>
           <Row>
-<<<<<<< HEAD
-=======
             <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
@@ -104,7 +95,6 @@ function WebsiteIntroduction() {
             </Col>
           </Row>
           <Row>
->>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164
             <Col md={12} className="home-about-social">
               <h1>FIND ME ON</h1>
               <p>
@@ -113,28 +103,16 @@ function WebsiteIntroduction() {
               <ul className="home-about-social-links">
                 <li className="social-icons">
                   <a
-<<<<<<< HEAD
-                    href="https://www.facebook.com/carl.masula.2025#"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour home-social-icons"
-                  >
-                    <AiFillFacebook />
-=======
                     href="https://github.com/soumyajit4419"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                   >
                     <AiFillGithub />
->>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164
                   </a>
                 </li>
                 <li className="social-icons">
                   <a
-<<<<<<< HEAD
-                    href="https://www.instagram.com/_carliejenner/"
-=======
                     href="https://twitter.com/Soumyajit4419"
                     target="_blank"
                     rel="noreferrer"
@@ -156,7 +134,6 @@ function WebsiteIntroduction() {
                 <li className="social-icons">
                   <a
                     href="https://www.instagram.com/soumyajit4419"
->>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour home-social-icons"

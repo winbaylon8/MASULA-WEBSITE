@@ -11,122 +11,6 @@ function Advocacy() {
             <h1 style={{ fontSize: "2.6em", marginBottom: "30px", textAlign: "center" }}>
               Our <span className="purple">Advocacy</span>
             </h1>
-<<<<<<< HEAD
-            <div className="advocacy-content">
-              <Card className="mb-4">
-                <Card.Body>
-                  <section className="formulated-program">
-                    <h2>Formulated Program</h2>
-                    {/* ...existing content... */}
-                    <h4>Activity-based Strategies</h4>
-                    <p>
-                      A home-based workout routine provides an accessible, economical, and effective method for maintaining physical fitness without the need for specialized equipment or access to a gym. By utilizing bodyweight exercises, individuals can engage in strength-building activities while simultaneously improving flexibility and cardiovascular endurance. These exercises effectively target major muscle groups and can be tailored to suit both beginners and more experienced individuals.
-                    </p>
-                    <div style={{ overflowX: 'auto', marginBottom: '2rem' }}>
-                      <table className="table table-bordered table-striped" style={{ minWidth: 400, background: 'rgba(35,35,45,0.2)', color: '#fff' }}>
-                        <thead>
-                          <tr>
-                            <th colSpan="2" style={{ textAlign: 'center', background: 'rgba(108,99,255,0.15)' }}>Workout A</th>
-                          </tr>
-                          <tr>
-                            <th>Exercise</th>
-                            <th>Resources</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Pushup and variations (4 sets of 6-8 reps)</td>
-                            <td>
-                              <a href="https://www.youtube.com/watch?v=0zkzvb_bfuY" target="_blank" rel="noopener noreferrer">Video 1</a><br/>
-                              <a href="https://www.youtube.com/watch?v=2FxZK4H2GUM" target="_blank" rel="noopener noreferrer">Video 2</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Pike Pushups and variations (3 sets of 6-10 reps)</td>
-                            <td>
-                              <a href="https://www.youtube.com/watch?v=PYL8jUzJr3A" target="_blank" rel="noopener noreferrer">Video 1</a><br/>
-                              <a href="https://www.youtube.com/watch?v=5yLcLmhjDw" target="_blank" rel="noopener noreferrer">Video 2</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Close Grip PushUps (3 sets of 8-10 reps)</td>
-                            <td>
-                              <a href="https://youtu.be/IcWPQo1i0k4?t=44" target="_blank" rel="noopener noreferrer">Video</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Leg Raises (3 sets of 15-20 reps)</td>
-                            <td>
-                              <a href="https://youtube.com/watch?v=PCDxgsX_LFs&si=bSwiMLRHV1j1v-zU" target="_blank" rel="noopener noreferrer">Video</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Bodyweight Calf Raise and variations (3 sets of 15-20 reps)</td>
-                            <td>
-                              <a href="https://www.youtube.com/watch?v=YoVLzAJKqY0" target="_blank" rel="noopener noreferrer">Video</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Water Jug Lift</td>
-                            <td>
-                              <a href="https://www.youtube.com/watch?v=YVn6iPEIVBo" target="_blank" rel="noopener noreferrer">Video</a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <table className="table table-bordered table-striped" style={{ minWidth: 400, background: 'rgba(35,35,45,0.2)', color: '#fff' }}>
-                        <thead>
-                          <tr>
-                            <th colSpan="2" style={{ textAlign: 'center', background: 'rgba(108,99,255,0.15)' }}>Workout B</th>
-                          </tr>
-                          <tr>
-                            <th>Exercise</th>
-                            <th>Resources</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Lunges (4 sets of 4-6 reps)</td>
-                            <td>
-                              <a href="https://youtube.com/watch?v=ugW5I-a5A-Q&si=cJDcSlkRvFZNzzBP" target="_blank" rel="noopener noreferrer">Video</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Reverse Pushups (3 sets of 6-8 reps)</td>
-                            <td>
-                              <a href="https://youtube.com/watch?v=a00N2M7J1_o&si=yNu8C1E1LTkWohrq" target="_blank" rel="noopener noreferrer">Video</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Bedsheet Row (3 sets of 6-8 reps)</td>
-                            <td>
-                              <a href="https://youtube.com/watch?v=rloXYB8M3vU&si=jQPrCCWB63wcQlB9" target="_blank" rel="noopener noreferrer">Video</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Side-lying Curl (3 sets of 8-10 reps)</td>
-                            <td>
-                              <a href="https://youtube.com/watch?v=VRvGrig1Ntc&si=BlI6nyEuRKREjk85" target="_blank" rel="noopener noreferrer">Video</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Leg Raises (3 sets of 15-20 reps)</td>
-                            <td>
-                              <a href="https://youtube.com/watch?v=PCDxgsX_LFs&si=bSwiMLRHV1j1v-zU" target="_blank" rel="noopener noreferrer">Video</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Bodyweight Calf Raise variations (3 sets of 15-20 reps)</td>
-                            <td>
-                              <a href="https://youtube.com/watch?v=_5R7wFS6I9o&si=bYJJCLgH7v2ND2S" target="_blank" rel="noopener noreferrer">Video</a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    {/* ...existing content... */}
-=======
-            
             <div className="advocacy-content">
               <Card className="mb-4">
                 <Card.Body>
@@ -155,10 +39,8 @@ function Advocacy() {
                 <Card.Body>
                   <section className="formulated-program">
                     <h2>Formulated Program</h2>
-                    
                     <section className="approach-methods">
                       <h3>Approach/Methods</h3>
-                      
                       <h4>Dietary-based Strategies</h4>
                       <p>
                         Meal plans designed for muscle gain emphasize a high intake of protein, vitamins, minerals, and calories for proper muscle synthesis. Daily foods should include protein sources in each meal and snack every week. It's crucial to focus on nutrient-dense foods rather than empty calories (Jaspan, 2024). In addition to whole foods, certain supplements can enhance muscle gain outcomes. These may include protein powders, creatine, and branched-chain amino acids (BCAAs) to support recovery and performance (Wirth, 2024).
@@ -166,17 +48,119 @@ function Advocacy() {
                       <p>
                         For an efficient approach in proper nutrition, food logging is crucial. A food log is an essential tool for anyone looking to increase muscle mass effectively. By tracking food intake, individuals can ensure they are meeting their nutritional goals regarding macronutrients, which are vital for muscle growth and recovery. Modern technology allows for easier logging through food tracking apps that can calculate macronutrients automatically.
                       </p>
-
                       <h4>Activity-based Strategies</h4>
                       <p>
                         A home-based workout routine provides an accessible, economical, and effective method for maintaining physical fitness without the need for specialized equipment or access to a gym. By utilizing bodyweight exercises, individuals can engage in strength-building activities while simultaneously improving flexibility and cardiovascular endurance. These exercises effectively target major muscle groups and can be tailored to suit both beginners and more experienced individuals.
                       </p>
-
+                      <div className="workout-tables-container">
+                        <table className="workout-table">
+                          <thead>
+                            <tr>
+                              <th colSpan="2">Workout A</th>
+                            </tr>
+                            <tr>
+                              <th>Exercise</th>
+                              <th>Resources</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Pushup and variations (4 sets of 6-8 reps)</td>
+                              <td>
+                                <a href="https://www.youtube.com/watch?v=0zkzvb_bfuY" target="_blank" rel="noopener noreferrer">Video 1</a><br/>
+                                <a href="https://www.youtube.com/watch?v=2FxZK4H2GUM" target="_blank" rel="noopener noreferrer">Video 2</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Pike Pushups and variations (3 sets of 6-10 reps)</td>
+                              <td>
+                                <a href="https://www.youtube.com/watch?v=PYL8jUzJr3A" target="_blank" rel="noopener noreferrer">Video 1</a><br/>
+                                <a href="https://www.youtube.com/watch?v=5yLcLmhjDw" target="_blank" rel="noopener noreferrer">Video 2</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Close Grip PushUps (3 sets of 8-10 reps)</td>
+                              <td>
+                                <a href="https://youtu.be/IcWPQo1i0k4?t=44" target="_blank" rel="noopener noreferrer">Video</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Leg Raises (3 sets of 15-20 reps)</td>
+                              <td>
+                                <a href="https://youtube.com/watch?v=PCDxgsX_LFs&si=bSwiMLRHV1j1v-zU" target="_blank" rel="noopener noreferrer">Video</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Bodyweight Calf Raise and variations (3 sets of 15-20 reps)</td>
+                              <td>
+                                <a href="https://www.youtube.com/watch?v=YoVLzAJKqY0" target="_blank" rel="noopener noreferrer">Video</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Water Jug Lift</td>
+                              <td>
+                                <a href="https://www.youtube.com/watch?v=YVn6iPEIVBo" target="_blank" rel="noopener noreferrer">Video</a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table className="workout-table">
+                          <thead>
+                            <tr>
+                              <th colSpan="2">Workout B</th>
+                            </tr>
+                            <tr>
+                              <th>Exercise</th>
+                              <th>Resources</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Lunges (4 sets of 4-6 reps)</td>
+                              <td>
+                                <a href="https://youtube.com/watch?v=ugW5I-a5A-Q&si=cJDcSlkRvFZNzzBP" target="_blank" rel="noopener noreferrer">Video</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Reverse Pushups (3 sets of 6-8 reps)</td>
+                              <td>
+                                <a href="https://youtube.com/watch?v=a00N2M7J1_o&si=yNu8C1E1LTkWohrq" target="_blank" rel="noopener noreferrer">Video</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Bedsheet Row (3 sets of 6-8 reps)</td>
+                              <td>
+                                <a href="https://youtube.com/watch?v=rloXYB8M3vU&si=jQPrCCWB63wcQlB9" target="_blank" rel="noopener noreferrer">Video</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Side-lying Curl (3 sets of 8-10 reps)</td>
+                              <td>
+                                <a href="https://youtube.com/watch?v=VRvGrig1Ntc&si=BlI6nyEuRKREjk85" target="_blank" rel="noopener noreferrer">Video</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Leg Raises (3 sets of 15-20 reps)</td>
+                              <td>
+                                <a href="https://youtube.com/watch?v=PCDxgsX_LFs&si=bSwiMLRHV1j1v-zU" target="_blank" rel="noopener noreferrer">Video</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Bodyweight Calf Raise variations (3 sets of 15-20 reps)</td>
+                              <td>
+                                <a href="https://youtube.com/watch?v=_5R7wFS6I9o&si=bYJJCLgH7v2ND2S" target="_blank" rel="noopener noreferrer">Video</a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <p>
+                        This pattern is to be repeated over and over until the goals are achieved. If possible, one should do as many reps until he or she reach a point of near muscular failure. This can mean that one should do 50, 100, 200 or more reps for the easy bodyweight exercises. This can promote progressive overload since the muscle adapts to new resistance. That is the only way to trigger muscle hypertrophy and stimulate growth using lighter and easier weights.
+                      </p>
                       <h4>Promotion-based Strategies</h4>
                       <p>
                         The methodology of this exercise routine shall be contained in an ebook format. The ebook shall contain factual information about muscle-building, including formulated routines and nutritional intake. Fitness results shall be posted on story or on feed via Instagram and Facebook. In each story, the link to the ebook shall be attached for faster dissemination. One should also use the #NoGymNoProblem to promote engagement and reach.
                       </p>
-
                       <h4>Resources Needed</h4>
                       <ul>
                         <li>Human Resources: Set of College students with perceived hectic schedules and workloads</li>
@@ -192,7 +176,6 @@ function Advocacy() {
                         </li>
                       </ul>
                     </section>
-
                     <section className="expected-outcomes">
                       <h3>Expected Outcomes</h3>
                       <ul>
@@ -210,69 +193,6 @@ function Advocacy() {
                         </li>
                       </ul>
                     </section>
-
-                    <section className="evaluation">
-                      <h3>Evaluation</h3>
-                      <p>
-                        By combining quantitative and qualitative measures, it is possible to evaluate both the physical outcomes and the overall experience of participants, ensuring a well-rounded assessment of the success of the muscle training program.
-                      </p>
-                      
-                      <h4>Quantitative Indicators</h4>
-                      <p>
-                        <strong>Strength Improvements (Measured by Number of Repetitions)</strong><br />
-                        Indicator: Increase in the number of repetitions.<br />
-                        Measurement: Track participants' performance on key exercises before and after the program. Strength improvements will be measured by how much they can increase either in repetitions.
-                      </p>
-
-                      <h4>Qualitative Indicators</h4>
-                      <ul>
-                        <li>
-                          <strong>Participant Feedback on Level of Ease and Enjoyment</strong><br />
-                          Indicator: Reported ease of following the exercise routine and overall enjoyment.<br />
-                          Measurement: Qualitative feedback from participants collected through surveys, interviews, or focus groups. Questions will focus on their experience with the simplicity, enjoyment, and sustainability of the exercises.
-                        </li>
-                        <li>
-                          <strong>Perceived Improvements of Health and Well-being</strong><br />
-                          Indicator: Participants' perceived improvements in health, energy levels, strength, and mental well-being.<br />
-                          Measurement: Use a self-reported health and well-being survey that includes questions about changes in energy, mood, stress levels, and general wellness.
-                        </li>
-                        <li>
-                          <strong>Visual Improvement of Participants' Body</strong><br />
-                          Indicator: Participants' perceived improvements of the body in terms of how toned it is and increase of size.<br />
-                          Measurement: Use of weekly documentations which allows the participants to compare their progress.
-                        </li>
-                      </ul>
-                    </section>
-                  </section>
-                </Card.Body>
-              </Card>
-
-              <Card>
-                <Card.Body>
-                  <section className="references">
-                    <h2>References</h2>
-                    <ul>
-                      <li>American Psychiatric Association. (2024). Strength training and mental health. Retrieved from https://www.psychiatry.org/news/strength-training-mental-health</li>
-                      <li>Armstrong, K., et al. (2018). Barriers to exercise in low-income communities. Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5954593/</li>
-                      <li>Berberoglu, M., et al. (2024). Body dysmorphia in young adults: A global perspective. Retrieved from https://doi.org/10.1016/j.jad.2021.08.065</li>
-                      <li>BDD Foundation. (2021). Body dysmorphic disorder in university students. Retrieved from https://www.bddfoundation.org</li>
-                      <li>Cleveland Clinic. (2024). How muscle mass declines with age. Retrieved from https://health.clevelandclinic.org/muscle-loss-aging</li>
-                      <li>DeBusk, R. M. (2020). Muscular strength: Factors influencing development and maintenance. Retrieved from https://doi.org/10.1519/JSC.0000000000003456</li>
-                      <li>De Maio Nascimento, A., et al. (2022). Age-related muscle atrophy: Mechanisms and interventions. Retrieved from https://doi.org/10.1016/j.arr.2021.101542</li>
-                      <li>DeSoto, M. (2022). Protein intake and muscle gain: A review of current recommendations. Retrieved from https://doi.org/10.1093/jn/nxab413</li>
-                      <li>Duchowny, K. (2018). Low muscular strength and its association with mortality risk. Retrieved from https://doi.org/10.1123/japa.2018-0042</li>
-                      <li>Kita, K., et al. (2024). Optimal protein intake for muscle hypertrophy in resistance training. Retrieved from https://doi.org/10.1038/s41430-023-01152-7</li>
-                      <li>Looker, A. C., & Wang, C. Y. (2015). Prevalence of low muscle strength among older adults in the United States. Retrieved from https://doi.org/10.1111/jgs.13714</li>
-                      <li>Mental Health America. (2024). Body dysmorphic disorder and its impact on youth. Retrieved from https://mhanational.org/issues/body-dysmorphic-disorder</li>
-                      <li>Plotkin, L. (2022). Progressive overload in resistance training. Retrieved from https://www.strongerbyscience.com/progressive-overload/</li>
-                      <li>Restivo, R. (2024). Protein intake and muscle strength: A nuanced perspective. Retrieved from https://www.health.harvard.edu/staying-healthy/why-protein-matters</li>
-                      <li>Robinson, T., et al. (2024). Endorphin release during strength training and its impact on mood. Retrieved from https://doi.org/10.1152/japplphysiol.00234.2024</li>
-                      <li>Robson, S. (2021). The role of sleep in muscle recovery and growth. Retrieved from https://doi.org/10.1007/s40279-021-01494-2</li>
-                      <li>Tagawa, R., et al. (2022). Protein intake and lean body mass: A meta-analysis. Retrieved from https://doi.org/10.1016/j.clnu.2021.08.019</li>
-                      <li>USADA. (2023). Challenges of maintaining protein intake for busy individuals. Retrieved from https://www.usada.org/resources/nutrition/protein/</li>
-                      <li>Wang, Y., et al. (2021). Impact of youth inactivity on muscular development. Retrieved from https://doi.org/10.1016/j.jpeds.2020.11.053</li>
-                    </ul>
->>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164
                   </section>
                 </Card.Body>
               </Card>

@@ -187,12 +187,13 @@ function Recipes() {
               style={{ borderRadius: '12px' }}
               playsInline
             >
-              <source src={process.env.PUBLIC_URL + "/food%20log/KUSINA.mp4"} type="video/mp4" />
-              <source src={process.env.PUBLIC_URL + "/food%20log/KUSINA.MOV"} type="video/quicktime" />
+              <source src={process.env.PUBLIC_URL + "/FOOD LOG/KUSINA.MOV"} type="video/quicktime" />
               Your browser does not support the video tag.
             </video>
           </div>
         </div>
+
+        <img src="/images/WEDNESDAY_(March_26).jpg" style={{border: '2px solid red'}} />
       </div>
     </Container>
   );

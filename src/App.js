@@ -37,11 +37,7 @@ function App() {
   }, []);
 
   return (
-<<<<<<< HEAD
     <Router>
-=======
-    <Router basename="/MASULA-WEBSITE">
->>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -65,8 +61,4 @@ function App() {
   );
 }
 
-<<<<<<< HEAD
-export default App; 
-=======
 export default App;
->>>>>>> 2d3b601f6d50be17d370a2de9648856876cd2164

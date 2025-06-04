@@ -217,4 +217,66 @@
   .advocacy-content .evaluation ul li {
     padding: 15px;
   }
+}
+
+.workout-tables-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.workout-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(35, 35, 45, 0.2);
+  color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.workout-table th {
+  background: rgba(108, 99, 255, 0.15);
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(108, 99, 255, 0.3);
+}
+
+.workout-table th[colspan="2"] {
+  text-align: center;
+  font-size: 1.2em;
+  background: rgba(108, 99, 255, 0.2);
+}
+
+.workout-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.workout-table tr:last-child td {
+  border-bottom: none;
+}
+
+.workout-table a {
+  color: #6c63ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.workout-table a:hover {
+  color: #8a84ff;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .workout-table {
+    font-size: 0.9rem;
+  }
+  
+  .workout-table th,
+  .workout-table td {
+    padding: 0.75rem;
+  }
 } 
