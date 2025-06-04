@@ -6,14 +6,15 @@ import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
-  Route,
   Routes,
+  Route,
   Navigate
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { UNSAFE_NavigationContext as NavigationContext } from 'react-router-dom';
 
 // Import page components
 import WebsiteIntroduction from "./components/pages/WebsiteIntroduction";
@@ -37,7 +38,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
