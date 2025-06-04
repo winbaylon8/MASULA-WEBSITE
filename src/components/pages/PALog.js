@@ -28,7 +28,7 @@ function PALog() {
             { name: "Sumo Squats", sets: 4, reps: 15 },
             { name: "Donkey Kicks", sets: 4, reps: 15, superset: "Straight Leg Lift (4 sets; 15 reps)" }
           ],
-          imageName: "/images/WEDNESDAY_(March_26).jpg"
+          imageName: "images/WEDNESDAY_(March_26).jpg"
         },
         {
           date: "March 28",
@@ -39,7 +39,7 @@ function PALog() {
             { name: "Bench Dips", sets: 3, reps: 10, superset: "Leg Raises (3 sets; 10 reps)" },
             { name: "Planks Shoulder Tops", sets: 3, reps: 10, superset: "Russian Twist (3 sets; 30 reps)" }
           ],
-          imageName: "/images/FRIDAY_(March_28).jpg"
+          imageName: "images/FRIDAY_(March_28).jpg"
         }
       ]
     },
@@ -208,67 +208,93 @@ function PALog() {
     }
   ];
 
+  // Helper to parse sets and reps from a superset string
+  function parseSetsReps(str, fallbackSets, fallbackReps) {
+    const setsMatch = str.match(/(\d+)\s*set/);
+    const repsMatch = str.match(/(\d+)\s*rep/);
+    return {
+      sets: setsMatch ? parseInt(setsMatch[1]) : fallbackSets,
+      reps: repsMatch ? parseInt(repsMatch[1]) : fallbackReps,
+    };
+  }
+
+  // Helper to clean exercise names (remove 'superset' and extra spaces)
+  function cleanExerciseName(name) {
+    return name.replace(/superset/gi, '').replace(/\s+/g, ' ').trim();
+  }
+
+  // Transform all exercises and supersets into flat exercise entries
+  const cleanedWorkoutData = workoutData.map(week => ({
+    ...week,
+    sessions: week.sessions.map(session => ({
+      ...session,
+      exercises: session.exercises.flatMap(ex => {
+        if (ex.superset) {
+          // Parse name, sets, reps for superset
+          const supersetName = cleanExerciseName(ex.superset.replace(/\s*\([^)]*\)/, ''));
+          const { sets, reps } = parseSetsReps(ex.superset, ex.sets, ex.reps);
+          return [
+            { name: supersetName, sets, reps },
+            { name: cleanExerciseName(ex.name), sets: ex.sets, reps: ex.reps }
+          ];
+        } else {
+          return [{ name: cleanExerciseName(ex.name), sets: ex.sets, reps: ex.reps }];
+        }
+      })
+    }))
+  }));
+
   return (
     <Container fluid className="about-section">
       <Container>
-        <Row>
+        <Row className="justify-content-center">
           <Col md={12} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              Physical <span className="purple">Activity Log</span>
+            <h1 style={{ fontSize: "2.6em", marginBottom: "30px", textAlign: "center" }}>
+              Physical Activity <span className="purple">Log</span>
             </h1>
-            <p className="home-about-body">
-              My fitness journey from March 24 to April 25
-            </p>
-          </Col>
-        </Row>
-        
-        {workoutData.map((week, weekIndex) => (
-          <div key={weekIndex} className="week-block mb-5">
-            <h2 className="purple mb-4">{week.week}</h2>
-            {week.sessions.map((session, sessionIndex) => (
-              <Card key={sessionIndex} className="mb-4 workout-card">
-                <Card.Header className="d-flex justify-content-between align-items-center">
-                  <h3 className="mb-0">{session.day} ({session.date})</h3>
+            {cleanedWorkoutData.map((week, weekIndex) => (
+              <Card key={weekIndex} className="mb-4">
+                <Card.Header>
+                  <h2>{week.week}</h2>
                 </Card.Header>
                 <Card.Body>
-                  <Row>
-                    <Col md={8}>
-                      <Table responsive borderless className="workout-table">
+                  {week.sessions.map((session, sessionIndex) => (
+                    <div key={sessionIndex} className="mb-4">
+                      <h3>{session.day} - {session.date}</h3>
+                      <Table striped bordered hover variant="dark">
                         <thead>
                           <tr>
                             <th>Exercise</th>
                             <th>Sets</th>
                             <th>Reps</th>
-                            <th>Superset</th>
                           </tr>
                         </thead>
                         <tbody>
-                          {session.exercises.map((exercise, index) => (
-                            <tr key={index}>
+                          {session.exercises.map((exercise, exerciseIndex) => (
+                            <tr key={exerciseIndex}>
                               <td>{exercise.name}</td>
                               <td>{exercise.sets}</td>
                               <td>{exercise.reps}</td>
-                              <td>{exercise.superset || '-'}</td>
                             </tr>
                           ))}
                         </tbody>
                       </Table>
-                    </Col>
-                    <Col md={4} className="workout-image">
                       {session.imageName && (
-                        <img 
-                          src={session.imageName}
-                          alt={`Workout ${session.day}`}
-                          className="img-fluid rounded"
-                        />
+                        <div className="text-center mt-3">
+                          <img 
+                            src={session.imageName} 
+                            alt={`${session.day} workout`} 
+                            style={{ maxWidth: '100%', height: 'auto' }}
+                          />
+                        </div>
                       )}
-                    </Col>
-                  </Row>
+                    </div>
+                  ))}
                 </Card.Body>
               </Card>
             ))}
-          </div>
-        ))}
+          </Col>
+        </Row>
       </Container>
     </Container>
   );

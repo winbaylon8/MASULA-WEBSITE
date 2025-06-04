@@ -37,7 +37,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/MASULA-WEBSITE">
+    <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
