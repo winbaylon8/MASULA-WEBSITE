@@ -18,8 +18,22 @@
   padding: 2rem;
 }
 
+.food-table,
+.food-table thead th,
+.food-table tbody tr,
+.food-table tbody tr:nth-child(even),
+.food-table td {
+  background-color: #221c3a !important;
+  color: #e0d7ff !important;
+  border: none !important;
+}
+
+.food-table thead th {
+  background-color: #6c63ff !important;
+  color: #fff !important;
+}
+
 .food-table {
-  color: #c0c0c0;
   margin-bottom: 0;
 }
 

@@ -1,3 +1,27 @@
+body, .about-section, .about-section > .container {
+  background: #18122b !important;
+  color: #e0d7ff !important;
+}
+
+.home-about-description h1,
+.home-about-description h2,
+.home-about-description h3 {
+  color: #fff;
+}
+
+.card,
+.workout-card,
+.card-header {
+  background: #221c3a !important;
+  color: #e0d7ff !important;
+  border: none !important;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(108, 99, 255, 0.08);
+  border-radius: 10px;
+}
+
 .workout-card {
   background-color: rgba(35, 35, 45, 0.2);
   border: none;
@@ -16,40 +40,45 @@
 
 .workout-card .card-body {
   padding: 2rem;
+  background: #221c3a !important;
+  color: #e0d7ff !important;
+  border-radius: 0 0 10px 10px;
 }
 
-.workout-table {
-  color: #c0c0c0;
-  margin-bottom: 0;
+.workout-table,
+.workout-table thead th,
+.workout-table tbody tr,
+.workout-table tbody tr:nth-child(even),
+.workout-table td {
+  background-color: #221c3a !important;
+  color: #e0d7ff !important;
+  border: none !important;
 }
 
 .workout-table thead th {
-  border-bottom: 2px solid var(--imp-text-color);
-  color: var(--imp-text-color);
-  font-weight: 600;
-}
-
-.workout-table td {
-  padding: 0.75rem;
-  border: none;
+  background-color: #6c63ff !important;
+  color: #fff !important;
 }
 
 .workout-image {
+  min-width: 180px;
+  max-width: 220px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 
-.workout-image img {
+.workout-img {
+  width: 180px;
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(108, 99, 255, 0.15);
   filter: grayscale(100%) contrast(1.2);
   transition: filter 0.3s ease;
 }
 
-.workout-image img:hover {
+.workout-img:hover {
   filter: grayscale(0%) contrast(1);
 }
 
@@ -57,13 +86,29 @@
   margin-top: 2rem;
 }
 
+.session-row {
+  gap: 2rem;
+}
+
 @media (max-width: 768px) {
   .workout-card .card-body {
     padding: 1rem;
   }
 
+  .session-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   .workout-image {
-    margin-top: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+    min-width: 120px;
+    max-width: 160px;
+  }
+
+  .workout-img {
+    width: 120px;
   }
 
   .workout-table {
